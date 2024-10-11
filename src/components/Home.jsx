@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from './Header'
 
 
 export default function Home() {
   return (
+    <>
+  <Header />
+
     <div className="flex flex-col md:flex-row items-center justify-center bg-white p-8  ">
       <div className="text-center  md:text-left md:mr-8">
         <h1 className="text-3xl font-bold mb-4 text-[#E0A75E] ">
@@ -10,6 +14,8 @@ export default function Home() {
         </h1>
        <h1 className='text-3xl font-bold mb-4 text-[#E0A75E]'>Our Stylish & Functional</h1>
        <h1 className='text-3xl font-bold mb-4 text-[#E0A75E]'>Accessories</h1>
+       <button className='bg-[#D38521] text-[#fff] w-24 h-10 mt-5 rounded-md'>Shop Now</button>
+
       </div>
 
       
@@ -19,7 +25,11 @@ export default function Home() {
           alt="Kitchen Accessories" 
           className="w-3/5 h-auto  "
         />
-    
+       
+   
     </div>
+     
+    </>
+
   )
 }
