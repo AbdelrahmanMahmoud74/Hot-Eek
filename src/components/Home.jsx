@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from './Header'
+// import Category from './Category'
+import { Outlet } from 'react-router-dom'
 
 
 export default function Home() {
@@ -28,7 +30,7 @@ export default function Home() {
        
    
     </div>
-     
+  <Outlet />
     </>
 
   )

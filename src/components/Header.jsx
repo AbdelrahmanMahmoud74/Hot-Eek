@@ -7,7 +7,7 @@ const Header = () => {
       <div className="text-3xl font-bold ml-20 text-white">Hot Eek</div>
       <nav className="space-x-8">
         <Link to="/" className="text-white text-xl ">Home</Link>
-        <Link to="/cateogries" className="text-white text-xl ">Categories</Link>
+        <Link to="/category" className="text-white text-xl ">Categories</Link>
         <Link to="/about" className="text-white text-xl ">About Us</Link>
       </nav>
       <div className="flex space-x-6 items-center mr-20">
