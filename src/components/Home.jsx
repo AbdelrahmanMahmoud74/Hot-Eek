@@ -1,13 +1,12 @@
 import React from 'react'
-import Header from './Header'
-// import Category from './Category'
+
 import { Outlet } from 'react-router-dom'
 
 
 export default function Home() {
   return (
     <>
-  <Header />
+
 
     <div className="flex flex-col md:flex-row items-center justify-center bg-white p-8  ">
       <div className="text-center  md:text-left md:mr-8">

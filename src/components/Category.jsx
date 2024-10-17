@@ -13,4 +13,4 @@ function cateogry() {
   )
 }
 
-export default cateogry
+export default cateogry 
